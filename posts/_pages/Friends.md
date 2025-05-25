@@ -79,7 +79,7 @@ showThumbnail: false # Whether you want to show 'in page' thumbnail.
 {
   "title": "喵落阁",
   "link": "https://me.kemeow.top/",
-  "img": "https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/kemiaotouxiang.jpg",
+  "img": "https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256",
   "des": "愿你看清一切真相后，依旧热爱你的家人和朋友。"
 }
 ```
