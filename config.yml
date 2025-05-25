@@ -1,34 +1,31 @@
 # ######################
 # SITE SETTINGS
 # ######################
-# The name of your blog, used in titles and meta tags.
-title: Suzu
-# A short description that appears after the main title.
-subTitle: Next.js Blog Template
-# A longer description for SEO and meta tags.
-description: 'Suzu is a minimalist blog template with a serene sakura-inspired theme, blending modern design with a touch of traditional Japanese aesthetics.'
-# Comma-separated keywords for SEO purposes.
-keywords: 'Suzu, Next.js, markdown blog, Tailwind CSS, blog template, sakura, ZL Asica'
+
+title: 喵落阁 # The name of your blog, used in titles and meta tags.
+subTitle: 克喵的博客 # A short description that appears after the main title.
+description: 克喵的博客，用于分享生活、资源和踩坑教学。 # A longer description for SEO and meta tags.
+keywords: 'Suzu, Next.js, markdown blog, 克喵, blog, sakura, 克喵爱吃卤面' # Comma-separated keywords for SEO purposes.
 author:
-  name: ZL Asica # Your name, displayed as the author of the blog.
-  link: 'https://www.zla.pub' # Link to your personal website or blog.
-# Language setting: Use BCP 47 tag
-# e.g., 'en' for English, 'zh-CN' for Simplified Chinese, 'zh-HK' for Traditional Chinese Hong Kong style
+  name: 克喵爱吃卤面 # Your name, displayed as the author of the blog.
+  link: 'https://www.kemiao.online' # Link to your personal website or blog.
+# Language setting: Use ISO 639-1 code (e.g., 'en' for English, 'zh' for Chinese)
 lang: zh-CN
 # Your public root url, used for SEO and meta tags.
 # !Do not include a ending slash
-siteUrl: 'https://suzu.zla.app'
+siteUrl: 'https://me.kemeow.top'
 
 # Path to your avatar image. Can be a relative path from /public or a full URL (e.g., https://).
-avatar: /images/avatar.jpg
+avatar: /images/kemiao.jpg
 # Used as the default thumbnail for posts without thumbnails.
 background: /images/background.jpg
 # Slogan displayed on your homepage, under your avatar.
-slogan: "As long as the code or the developer is able to run, it's all good."
+slogan: 愿你看清一切真相后，依旧热爱你的家人和朋友。
 # Google Analytics tracking ID (e.g., 'G-XXXXXXXXXX'). Leave empty if you do not want to use Google Analytics.
 googleAnalytics:
 
 # ######################
+
 # HTML HEAD SETTINGS
 # ######################
 # Feel free to add more links in Head for your site for better SEO.
@@ -56,7 +53,8 @@ links:
 # POSTS SETTINGS
 # ######################
 # How many posts you want to display per page. (default(not set): 5, max: 15)
-postsPerPage:
+postsPerPage: 10
+
 # Your custom CC license for the posts.
 creativeCommons:
   type: CC BY-SA 4.0 Deed
@@ -67,20 +65,20 @@ creativeCommons:
 # ######################
 # If you want to join the travellings community, set the following field to true.
 # For more information, visit https://www.travellings.cn/en_US/
-travellings: false
+travellings: true
 
 # ######################
 # FOOTER SETTINGS
 # ######################
 # If you want to have a start year of your blog, set the year here.
-startYear: 2017 # Leave empty if you do not want to display a start year.
+startYear: 2025 # Leave empty if you do not want to display a start year.
 
 # ######################
 # PAGES SETTINGS
 # ######################
 # Add your AniList username if you want to display your AniList profile.
 # Leave the field empty if you do not want to display your AniList profile.
-anilist_username: zlasica # Your AniList username. https://anilist.co/user/username
+anilist_username: # Your AniList username. https://anilist.co/user/username
 
 # ######################
 # SOCIAL MEDIA SETTINGS
@@ -89,17 +87,18 @@ anilist_username: zlasica # Your AniList username. https://anilist.co/user/usern
 # Leave the field empty if you do not want to display a specific platform.
 # The order of the social media icons is determined by the order below.
 socialMedia:
-  github_username: ZL-Asica # Your GitHub username. https://github.com/username
-  linkedin_username: elara-liu # Your LinkedIn username. https://www.linkedin.com/in/username
+  github_username: Kemeow815 # Your GitHub username. https://github.com/username
+  linkedin_username: # Your LinkedIn username. https://www.linkedin.com/in/username
   instagram_id: # Your Instagram username.
-  orcid_id: 0009-0008-7221-2324 # Your ORCID iD.
-  telegram_username: zl_asica # Your Telegram username. https://t.me/username
-  bluesky_username: zla.app # Your Bluesky username (without prefix). https://bsky.app/profile/{username}
-  youtube_id: ZL-Asica # Your YouTube channel ID. https://www.youtube.com/@username
-  zhihu_username: zl_asica # Your Zhihu username. https://www.zhihu.com/people/username
-  bilibili_id: 29018759 # Your Bilibili ID. https://space.bilibili.com/username
-  email: zl@zla.app # Your email address.
-  rss: false # Display the RSS icon. Set to false to hide the icon. Set empty to fully disable the RSS feed.
+  orcid_id: # Your ORCID iD.
+  telegram_username: KemiaoJun # Your Telegram username. https://t.me/username
+  bluesky_username: # Your Bluesky username (without prefix). https://bsky.app/profile/{username}
+  youtube_id: # Your YouTube channel ID. https://www.youtube.com/@username
+  zhihu_username: # Your Zhihu username. https://www.zhihu.com/people/username
+  bilibili_id: 3546643173477234 # Your Bilibili ID. https://space.bilibili.com/username
+  email: me@kemiaosw.top # Your email address.
+  rss: true # Display the RSS icon. Set to false to hide the icon. Set empty to fully disable the RSS feed.
+  qq: p0B0Y9wNDU
 
 # ######################
 # COMMENTS SETTINGS
@@ -107,7 +106,7 @@ socialMedia:
 # Priority: Twikoo > Disqus
 # ######################
 # Your Twikoo environment ID.
-twikooEnvId: https://vercel.twikoo.zla.app
+twikooEnvId: https://twikoo-suzublog.kemeow.top
 # Your Disqus shortname (used for integrating Disqus comments).
 # Find this in your Disqus account: yoursite.disqus.com (shortname is the part before .disqus.com).
 disqusShortname:

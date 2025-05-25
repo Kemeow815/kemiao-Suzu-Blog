@@ -1,5 +1,5 @@
 ---
-title: 关于 ZL Asica
+title: 关于 克喵爱吃卤面
 thumbnail: '' # (Optional) You can put your personal about thumbnail
 showLicense: false
 showComments: true
@@ -7,45 +7,67 @@ showThumbnail: false
 autoSlug: false
 ---
 
-✨ <u>欢迎来到我的个人空间！</u> ✨
+## ✨ <u>欢迎来到我的个人空间！</u> ✨
 
-我是 <u>ZL Asica（Elara Liu）</u>，目前坐标 [Evanston, IL, USA](https://www.google.com/maps/place/Evanston,+IL/)，就读于 [Northwestern University](https://www.northwestern.edu)，攻读 **Master of Science in Computer Science**。研究方向是 **HCI + Ubicomp + ML**，探索人机交互、可穿戴技术、健康信息学等领域的前沿研究。
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://blog-v3.kemeow.top/">
+    <img 
+      src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" 
+      alt="GIF Link" 
+      height="275" 
+      style="max-width: 100%; height: auto; display: inline-block;"
+    />
+  </a>
+</div>
 
-💡 <u>更详细的学术信息？</u> 访问我的 [学术主页](https://www.zla.app/) 🚀
+- 🔭 I’m currently studying in Nanjing
+- 🌱 Current learning content: Automation Technology and Applications, front-end (sub), etc
+- 💬 You can ask me some questions about resources。
+- 📫 How to contact my email or official account: me@kemiaosw.top
+- 🍉 Active Community：[BLOG](https://blog-v3.kemeow.top) | [Telegram](https://t.me/KemiaoJun) | [X](https://x.com/kemiaosw/)
+
+<img src="/images/hello.svg" alt="SVG Image" width="100" height="100" />
+
+<img src="/images/jieshao.svg" alt="SVG Image" width="100" height="100" />
+
+## 👋 个人简介
 
 ---
 
-## 🎭 个人标签
+[个人主页](https://kemiao.online) | [博客站点](https://blog-v3.kemeow.top)
 
-🥼 **HCI 研究者** → 关注可穿戴计算、智能交互设计、数据驱动的用户体验，希望让技术更贴近生活。
+大家好！这里是克喵爱吃卤面的博客。致力于分享资源、生活日记和踩坑教程，代码水准一般，自动化专业大二学生，现于南京就读，普通的大学牛马。
 
-🖥️ **全栈开发者** → 喜欢折腾各种前端后端技术，从 Hexo 到 Wordpress 到 Next.js，从 Firebase 到 Hono + Cloudflare Workers/Pages。
+## 关于我
 
-🎨 **设计 & 交互** → 偏好简洁优雅的 UI/UX 设计，认为好的设计能让代码也更有灵魂。
+---
 
-🎬 **视频剪辑** → 略知一二，曾经搞过剪辑（虽然很久没接触了）。
+- 🖥 **个性:** 开朗活泼，热爱学习，勤奋工作
+- 🖥 **技能:** 自动化技术与应用
+- 🖥 **个人信息:**
+  - 🧑 **姓名:** mcy
+  - 🏫 **学校:** 南京工业职业技术大学，[官方网站](https://www.niit.edu.cn/)
+  - 🏛️ **年级:** 大二
+  - 👷 **职业:** 学生
+- 🖥 **兴趣:** 计算机，单机游戏，电子产品，数码产品，资源分享
+- 🖥 **梦想:** 咸鱼算不算？
 
-📝 **字幕组组长** → [BelugaSubs 白鲸字幕组](https://www.belugasubs.com/) 创始人，致力于分享全球多元文化作品。
+---
 
-📺 **资深动漫宅** → 最喜欢的作品是《Love Live!》《青春猪头少年》《紫罗兰的永恒花园》《Charlotte》《终将成为你》等（更多请戳 [/about/anime](/about/anime)）
+## 📈 我的GitHub数据
 
-🏂 **Snowboarder** → 单板党，每年冬天的乐趣！🏂 ❄️
+<img src="/images/github-stats.svg" alt="SVG Image" width="100" height="100" />
 
-🐧 **社交习惯** → INFJ 轻度社恐，但在熟人圈子里话痨。私信随缘回复，偶尔摆烂，交个朋友欢迎点击 [友链页面](/friends)！
+<img src="/images/graph.svg" alt="SVG Image" width="100" height="100" />
 
-## 🚀 这个博客的意义
+<img src="/images/xiuxian.svg" alt="SVG Image" width="100" height="100" />
 
-这个博客是我的<u>个人小宇宙</u>，主要用来记录：
+---
 
-- 💡 **编程踩坑笔记**：遇到有趣或难搞的技术问题时的解决方案，顺便分享一些自己踩过的坑（希望你别踩）。
-- 🛠️ **实用工具推荐**：从服务器配置到本地开发环境，从生产力工具到效率黑科技。
-- ✨ **随想 & 点子**：突发奇想的碎碎念，或者旅行见闻 & 生活感悟（也许能成为你的出行参考？）。
+## 赞助
 
-## 🛠️ 关于这个博客
-
-💻 这个博客是我 <u>100% 纯手工打造</u>，基于我开发的 [SuzuBlog](https://suzu.zla.app/)，使用 **Next.js** + **Markdown** + **Vercel** 部署，所有代码 <u>开源可用</u>，欢迎试试和我同款博客！🚀
-
-📖 **SuzuBlog 文档**：[点击这里](https://suzu.zla.app/) 获取详细部署教程！
+- 微信公众号：[克喵的小站](https://wechat.kemeow.top/)
+- 赞助页面: [点我](https://donate.kemeow.top/)
 
 ## 🎤 最后
 
