@@ -15,18 +15,16 @@ permissions:
   contents: read
 
 jobs:
-  test:
+  server-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout code
       - name: 📂 Checkout code
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.inputs.ref || github.ref_name }}
           fetch-depth: 1
 
-      # Step 2: Set up Node.js and pnpm
       - name: 📦 Set up Node.js and pnpm
         uses: pnpm/action-setup@v4
         with:
@@ -34,26 +32,29 @@ jobs:
             - recursive: true
               args: [--frozen-lockfile]
 
-      # Step 3: Run linter
-      - name: 🚨 Lint Code
-        run: pnpm run lint
+      - name: 💾 Cache .next/cache
+        uses: actions/cache@v4
+        with:
+          path: .next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-
 
-      # Step 4: Test wether build is successful
       - name: ✅ Build Project
         run: pnpm run build
 
-      # Step 5: Pack build artifacts
       - name: 📦 Package build files
         run: |
-          tar -czf build.tar.gz \
+          tar --exclude=".next/cache" -czf build.tar.gz \
             .next \
             public \
             package.json \
             pnpm-lock.yaml \
             .node-version \
             LICENSE
+          echo "📦 Archive size:"
+          du -sh build.tar.gz
 
-      # Step 6: Upload packaged build to server
       - name: 📤 Upload build to server
         uses: appleboy/scp-action@v0.1.4
         with:
@@ -61,9 +62,8 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           source: build.tar.gz
-          target: /data/apps/SuzuBlog/app
+          target: /data/apps/SuzuBlog
 
-      # Step 7: SSH into server and run deploy script
       - name: 🛠️ SSH Run deploy.sh
         uses: appleboy/ssh-action@v1.0.0
         with:
@@ -71,5 +71,5 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /data/apps/SuzuBlog/app
+            cd /data/apps/SuzuBlog
             ./deploy.sh
