@@ -42,22 +42,22 @@ const anilistAnimeNameStyleSchema = z.enum(['romaji', 'english', 'native']).null
 
 const socialMediaSchema = z.object({
   github_username: optionalStrOrNum,
-  linkedin_username: optionalStrOrNum,
-  instagram_id: optionalStrOrNum,
-  orcid_id: z
-    .string()
-    .regex(
-      /^\d{4}-\d{4}-\d{4}-\d{3}[0-9X]$/,
-      'Invalid ORCID iD format. Expected: 0000-0000-0000-0000',
-    )
-    .optional()
-    .nullable()
-    .default(null),
+  // linkedin_username: optionalStrOrNum,
+  // instagram_id: optionalStrOrNum,
+  // orcid_id: z
+  //   .string()
+  //   .regex(
+  //     /^\d{4}-\d{4}-\d{4}-\d{3}[0-9X]$/,
+  //     'Invalid ORCID iD format. Expected: 0000-0000-0000-0000',
+  //   )
+  //   .optional()
+  //   .nullable()
+  //   .default(null),
   telegram_username: optionalStrOrNum,
   twitter_username: optionalStrOrNum,
-  bluesky_username: optionalStrOrNum,
-  youtube_id: optionalStrOrNum,
-  zhihu_username: optionalStrOrNum,
+  // bluesky_username: optionalStrOrNum,
+  // youtube_id: optionalStrOrNum,
+  // zhihu_username: optionalStrOrNum,
   bilibili_id: optionalStrOrNum,
   qq: optionalStrOrNum,
   music_id: optionalStrOrNum,

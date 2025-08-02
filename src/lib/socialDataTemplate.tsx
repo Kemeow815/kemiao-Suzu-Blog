@@ -23,18 +23,6 @@ const socialDataTemplate: SocialData = {
     urlTemplate: 'https://github.com/{username}',
     icon: FaGithub,
   },
-  // linkedin_username: {
-  //   urlTemplate: 'https://www.linkedin.com/in/{username}',
-  //   icon: FaLinkedin,
-  // },
-  // instagram_id: {
-  //   urlTemplate: 'https://www.instagram.com/{username}',
-  //   icon: FaInstagram,
-  // },
-  // orcid_id: {
-  //   urlTemplate: 'https://orcid.org/{username}',
-  //   icon: FaOrcid,
-  // },
   telegram_username: {
     urlTemplate: 'https://t.me/{username}',
     icon: FaTelegram,
@@ -47,18 +35,6 @@ const socialDataTemplate: SocialData = {
     urlTemplate: 'https://twitter.com/{username}',
     icon: FaTwitter,
   },
-  // bluesky_username: {
-  //   urlTemplate: 'https://bsky.app/profile/{username}',
-  //   icon: FaBluesky,
-  // },
-  // youtube_id: {
-  //   urlTemplate: 'https://www.youtube.com/@{username}',
-  //   icon: FaYoutube,
-  // },
-  // zhihu_username: {
-  //   urlTemplate: 'https://www.zhihu.com/people/{username}',
-  //   icon: FaZhihu,
-  // },
   bilibili_id: {
     urlTemplate: 'https://space.bilibili.com/{username}',
     icon: FaBilibili,
