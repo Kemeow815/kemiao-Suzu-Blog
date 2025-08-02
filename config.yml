@@ -16,7 +16,7 @@ lang: zh-CN
 siteUrl: 'https://me.kemeow.top'
 
 # Path to your avatar image. Can be a relative path from /public or a full URL (e.g., https://).
-avatar: /images/kemiao.jpg
+avatar: https://img.314926.xyz/images/2025/07/30/kemiao.webp
 # Used as the default thumbnail for posts without thumbnails.
 background: /images/background.jpg
 # Slogan displayed on your homepage, under your avatar.
@@ -94,17 +94,13 @@ anilist_anime_name_style: english
 # The order of the social media icons is determined by the order below.
 socialMedia:
   github_username: Kemeow815 # Your GitHub username. https://github.com/username
-  linkedin_username: # Your LinkedIn username. https://www.linkedin.com/in/username
-  instagram_id: # Your Instagram username.
-  orcid_id: # Your ORCID iD.
   telegram_username: KemiaoJun # Your Telegram username. https://t.me/username
-  bluesky_username: # Your Bluesky username (without prefix). https://bsky.app/profile/{username}
-  youtube_id: # Your YouTube channel ID. https://www.youtube.com/@username
-  zhihu_username: # Your Zhihu username. https://www.zhihu.com/people/username
   bilibili_id: 3546643173477234 # Your Bilibili ID. https://space.bilibili.com/username
-  email: me@kemiaosw.top # Your email address.
+  email: me@mail.kemeow.top # Your email address.
   rss: true # Display the RSS icon. Set to false to hide the icon. Set empty to fully disable the RSS feed.
-  qq: p0B0Y9wNDU
+  qq: l355c7etFY
+  music_id: 1725716511 # Your Music ID. https://music.163.com/user/username
+  twitter_username: kemiaosw # Your Twitter username. https://twitter.com/username
 
 # ######################
 # COMMENTS SETTINGS
@@ -124,7 +120,7 @@ disqusShortname:
 # Add custom JavaScript code to be included inside the <head> section of your site.
 # One script url per line. Could be a CDN or a local file.
 headerJavascript:
-  - https://cdn.jsdelivr.net/gh/zl-asica/web-cdn/js/zlasica.js
+  - https://static.314926.xyz/js/suzublog/zlasica.js
 # Add custom HTML code to be included inside the <footer> section of your site.
 slotFooter: |
-  <!-- Add your custom footer HTML here -->
+  <img src="https://img.shields.io/badge/欢迎来到克喵的博客-希望你在这里得偿所愿-4CAF50" alt="欢迎来到克喵的博客">

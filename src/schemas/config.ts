@@ -54,10 +54,13 @@ const socialMediaSchema = z.object({
     .nullable()
     .default(null),
   telegram_username: optionalStrOrNum,
+  twitter_username: optionalStrOrNum,
   bluesky_username: optionalStrOrNum,
   youtube_id: optionalStrOrNum,
   zhihu_username: optionalStrOrNum,
   bilibili_id: optionalStrOrNum,
+  qq: optionalStrOrNum,
+  music_id: optionalStrOrNum,
   email: z.string().email('Email must be a valid email address').optional().nullable().default(null),
   rss: z.boolean().nullable().optional().default(null).describe('Whether to display the RSS icon, leave empty to fully disable the RSS feed'),
 })

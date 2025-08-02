@@ -6,31 +6,6 @@ showLicense: false # Set whether you want to show license for this page
 showThumbnail: false # Whether you want to show 'in page' thumbnail.
 ---
 
-## 我的项目
-
-```Links
-[
-{
-"title": "白鲸字幕组",
-"link": "https://www.belugasubs.com/",
-"img": "https://r2.img.zla.app/2024/12/02/fcc241.webp",
-"des": "白鲸字幕组是一个非盈利性质的多语言字幕组。"
-},
-{
-"title": "AIfans",
-"link": "https://aifans.zla.app/",
-"img": "https://r2.img.zla.app/2024/12/03/",
-"des": "KizunaAI 中文粉丝站"
-},
-{
-"title": "个人学术网站",
-"link": "https://www.zla.app/",
-"img": "https://r2.img.zla.app/2024/12/02/ae779a.webp",
-"des": "我的个人学术网站(英文)。"
-}
-]
-```
-
 ## 友情链接
 
 > 下面全是大佬!!!同样也都是朋友～～～
@@ -84,4 +59,4 @@ showThumbnail: false # Whether you want to show 'in page' thumbnail.
 }
 ```
 
-需要更新头像或者链接请留言，有时间会处理的。若没有及时处理请给我发邮件催一下，邮箱是me@kemiaosw.top。
+需要更新头像或者链接请留言，有时间会处理的。若没有及时处理请给我发邮件催一下，邮箱是me@mail.kemeow.top。
