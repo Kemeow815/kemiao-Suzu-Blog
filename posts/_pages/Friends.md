@@ -25,16 +25,52 @@ showThumbnail: false # Whether you want to show 'in page' thumbnail.
 "des": ""
 },
 {
-"title": "折影轻梦",
-"link": "https://nexmoe.com/",
-"img": "https://cravatar.cn/avatar/c7fd185f8c967dec20c29c75a40b9e09?s=500",
-"des": "为热爱战斗着，努力学着变得勇敢"
+"title": "纸鹿摸鱼处",
+"link": "https://www.zilumoyu.com/",
+"img": "https://gravatar.zilumoyu.com/avatar/4a9e0d0d7f5c9e5f8f6f8f6f8f6f8f6f?s=200",
+"des": "纸鹿至麓不知路，支炉制露不止漉"
 },
 {
-"title": "「云华」CloudSino",
-"link": "https://cloud.sd.cn/",
-"img": "https://ipfs.crossbell.io/ipfs/QmPv8huiCrnyDkGWHCNnd16vrpmZqt2TpVauhDuMv16Cok?img-quality=75&img-format=auto&img-onerror=redirect&img-width=384",
-"des": "愿我的祝福与你同在！"
+"title": "张洪Heo",
+"link": "https://blog.zhheo.com/",
+"img": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+"des": "分享设计与科技生活"
+},
+{
+"title": "梦爱吃鱼",
+"link": "https://blog.bsgun.cn/",
+"img": "https://oss-cdn.bsgun.cn/logo/avatar.256.png",
+"des": "但愿日子清静抬头遇见的满是柔情"
+},
+{
+"title": "APP喵",
+"link": "https://www.appmiu.com/",
+"img": "https://img.314926.xyz/images/2025/07/09/app喵.webp",
+"des": "电报频道主之一"
+},
+{
+"title": "面条实验室",
+"link": "https://memo.miantiao.me",
+"img": "https://img.314926.xyz/images/2025/07/09/miantiao.webp",
+"des": "TG博客作者"
+},
+{
+"title": "Akilarの糖果屋",
+"link": "https://akilar.top/",
+"img": "https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg",
+"des": "欢迎光临糖果屋"
+},
+{
+"title": "CWorld Site",
+"link": "https://cworld0.com/",
+"img": "https://cravatar.cn/avatar/1ffe42aa45a6b1444a786b1f32dfa8aa?s=200",
+"des": "求知若愚，虚怀若谷"
+},
+{
+"title": "FloatSheep",
+"link": "https://blog.hesiy.cn",
+"img": "https://registry.npmmirror.com/@floatsheep/fsl-fim/1.0.23/files/avatar%202024.black.webp",
+"des": "On the other side of obstacles"
 },
 {
 "title": "wallleap",
