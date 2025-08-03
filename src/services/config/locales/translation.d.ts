@@ -45,6 +45,10 @@ interface Translation {
       planning: string
     }
   }
+  more: {
+    title: string
+    description: string
+  }
   post: {
     thumbnail: string
     readMore: string

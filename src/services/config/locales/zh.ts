@@ -44,6 +44,10 @@ const zh: Translation = {
       planning: '计划',
     },
   },
+  more: {
+    title: '更多',
+    description: ' 的更多页面，展示一些额外的信息。',
+  },
   post: {
     thumbnail: '封面：',
     readMore: '阅读全文 ',

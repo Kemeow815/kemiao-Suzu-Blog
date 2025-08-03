@@ -45,6 +45,10 @@ const en: Translation = {
       planning: 'Planning',
     },
   },
+  more: {
+    title: 'More',
+    description: '\'s more page, showcasing some additional information.',
+  },
   post: {
     thumbnail: 'Thumbnail: ',
     readMore: 'Read more about ',

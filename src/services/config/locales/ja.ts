@@ -45,6 +45,10 @@ const ja: Translation = {
       planning: '計画',
     },
   },
+  more: {
+    title: 'More',
+    description: 'のMoreページです。',
+  },
   post: {
     thumbnail: 'サムネイル: ',
     readMore: '続きを読む ',
