@@ -23,6 +23,10 @@ const ja: Translation = {
     description: 'の友達ページです。全てのリンクをご覧いただけます。',
     avatar: 'アバター',
   },
+  fc: {
+    title: 'FC',
+    description: 'のFCページです。',
+  },
   about: {
     title: '概要',
     description:

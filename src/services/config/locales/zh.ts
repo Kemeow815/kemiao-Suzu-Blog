@@ -23,6 +23,10 @@ const zh: Translation = {
     description: ' 的友情链接页，在这里你可以看到所有的友情链接。',
     avatar: '头像',
   },
+  fc: {
+    title: '朋友圈',
+    description: ' 的朋友圈页面，展示一些友链动态。',
+  },
   about: {
     title: '关于',
     description: ' 的关于页，这里是关于站长一些信息。查看站长的个人故事。',

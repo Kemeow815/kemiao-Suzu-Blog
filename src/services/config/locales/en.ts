@@ -23,6 +23,10 @@ const en: Translation = {
     description: '\'s friends page, where you can see all the friends.',
     avatar: 'Avatar',
   },
+  fc: {
+    title: 'Friend Circle',
+    description: '\'s friend circle page, showcasing some friend links.',
+  },
   about: {
     title: 'About',
     description:

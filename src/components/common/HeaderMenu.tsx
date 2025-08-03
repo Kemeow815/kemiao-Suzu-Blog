@@ -4,7 +4,7 @@ import type { ReactElement } from 'react'
 import type { Config } from '@/schemas'
 import { useTheme } from '@zl-asica/react'
 import { isEmpty } from '@zl-asica/react/utils'
-import { House, Info, Moon, Newspaper, Sun, TrainFront, TvMinimalPlay, UsersRound } from 'lucide-react'
+import { House, Info, Link as LinkIcon, Moon, Newspaper, Sun, TrainFront, TvMinimalPlay, UsersRound } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Fragment } from 'react'
@@ -31,10 +31,21 @@ const HeaderMenu = ({ config, isMobile, ulClassName, onClickHandler }: HeaderMen
   const menuItems: MenuItem[] = [
     { href: '/', label: translation.home.title, icon: <House /> },
     { href: '/posts', label: translation.posts.title, icon: <Newspaper /> },
-    { href: '/friends', label: translation.friends.title, icon: <UsersRound /> },
+    {
+      href: '/friends',
+      label: translation.friends.title,
+      icon: <UsersRound />,
+      children: [
+        // 默认的朋友链接
+        // { href: '/friends', label: translation.friends.title, icon: <UsersRound /> },
+        // 添加友链朋友圈子链接
+        { href: '/fc', label: '鱼塘', icon: <LinkIcon /> },
+      ],
+    },
     { href: '/about', label: translation.about.title, icon: <Info /> },
   ]
 
+  // 保留原有的 anime 子菜单逻辑
   if (!isEmpty(config.anilist_username)) {
     menuItems[3].children = [{ href: '/about/anime', label: translation.anime.title, icon: <TvMinimalPlay /> }]
   }
